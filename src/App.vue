@@ -4,7 +4,7 @@
       <nav class="grey darken-4 " id="elementos">
         <div class="nav-wrapper ">
           <a href="#" class="brand-logo right">
-            <img class="materialboxed" src="../dist/comdahllogo.png" width="200" height="200" alt="Logo"></img>
+            <img class="materialboxed" src="../dist/comdahllogo.png" width="180" height="180" alt="Logo"></img>
           </a>
           <a href="#" data-activates="mobile-demo" class="button-collapse dropdown-button btn"><i class="material-icons">menu</i></a>
           <ul id="nav" class="center hide-on-med-and-down">
@@ -145,7 +145,7 @@
   }
   #elementos{
     font-family: 'Roboto', sans-serif;
-    color: #FFFFC4 !important;
+
   }
   a {
     color: #F4F0EA;

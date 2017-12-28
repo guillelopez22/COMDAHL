@@ -126,7 +126,7 @@
           <div class="slider">
             <ul class="slides">
               <li>
-                <img src="..\dist\Desarrollo comunal.jpg">
+                <img src="../dist/Desarrollo comunal.jpg">
                 <div class="caption center-align">
                   <h3>Desarrollo comunal localizado en aldea el limón, Cerro de Hula </h3>
                 </div>
@@ -146,14 +146,14 @@
                 </div>
               </li>
               <li>
-                <img src="..\dist\Fabrica de biofertilizantes.jpg">
+                <img src="../dist/Fabrica de biofertilizantes.jpg">
                 <div class="caption center-align">
                   <h3>Fábrica de biofertilizantes y biopesticidas formulados y elaborados en el país</h3>
 
                 </div>
               </li>
               <li>
-                <img src="..\dist\areas Protegidas.jpg">
+                <img src="../dist/areas Protegidas.jpg">
                 <div class="caption center-align">
                   <h3>Proyecto Alfa y Omega COMDAHL (Protección de Áreas Protegidas Privadas)</h3>
 
@@ -165,31 +165,41 @@
       </div>
     </div>
     <!--  Requisitos-->
-    <div class="-long2 center -black" id="requisitos">
+    <div class=" center -black" id="requisitos">
       <br><br><br>
       <h1>Requisitos</h1>
       <ul class="collapsible popout" data-collapsible="accordion">
         <li>
-          <div class="collapsible-header"><i class="material-icons">filter_drama</i>Podrán ser parte de COMDAHL:</div>
-          <div class="collapsible-body"><span>1)	los estudiantes y/o egresados mayores de 16 años de las carreras de las Ciencias Agrícolas o Carreras afines como ser: (Ingeniería forestal, Economía agrícola, administración agropecuaria, licenciatura en turismo, Ingeniería ambiental, etc.), con pleno goce de sus derechos ciudadanos.
-          2)	Personas auspiciadas o recomendadas por una persona que ya es miembro de COMDAHL.
-          3)	Empresas o instituciones con personería jurídica en economía social y solidaria.</span></div>
+          <div class="-frase3 collapsible-header"><i class="material-icons">filter_drama</i>Podrán ser parte de COMDAHL:</div>
+          <div class="collapsible-body">
+            <p>1)	los estudiantes y/o egresados mayores de 16 años de las carreras de las Ciencias Agrícolas o Carreras afines como ser: </p>
+            <p>(Ingeniería forestal, Economía agrícola, administración agropecuaria, licenciatura en turismo, Ingeniería ambiental, etc.), </p>
+            <p>con pleno goce de sus derechos ciudadanos.</p>
+            <br>
+            <p>2)	Personas auspiciadas o recomendadas por una persona que ya es miembro de COMDAHL.</p>
+            <br>
+            <p>3)	Empresas o instituciones con personería jurídica en economía social y solidaria.</p>
+          </div>
         </li>
         <li>
           <div class="collapsible-header"><i class="material-icons">place</i>Para poder afiliarse una persona natural deberá presentar:</div>
-          <div class="collapsible-body"><span>1)	Por escrito solicitud de ingreso dirigida a la junta directiva;
-          2)	Presentar sus documentos personales;
-          3)	Pagar una cuota de ingreso no rembolsable de L.2,000.00 anuales;
-          4)	Presentar declaración de beneficiarios (as).</span></div>
+          <div class="collapsible-body">
+            <p>1)	Por escrito solicitud de ingreso dirigida a la junta directiva;</p>
+            <p>2)	Presentar sus documentos personales;</p>
+            <p>3)	Pagar una cuota de ingreso no rembolsable de L.2,000.00 anuales;</p>
+            <p>4)	Presentar declaración de beneficiarios (as).</p>
+          </div>
         </li>
         <li>
           <div class="collapsible-header"><i class="material-icons">whatshot</i> Para poder afiliarse las empresas o instituciones con personería jurídica deberán presentar:</div>
-          <div class="collapsible-body"><span>1)	Personería jurídica;
-          2)	Estatuto Social o documento equivalente;
-          3)	Certificación del acta de Junta Directiva en donde conste la decisión             de afiliarse a la cooperativa;
-          4)	Certificación del punto de acta de la Junta Directiva que acredite la persona que ostenta la representación legal de conformidad a su estatuto;
-          5)	Constancia de inscripción de la junta directiva en la unidad de Registro               y Seguimiento de Sociedades Civiles (URSAC) o su equivalente;
-          6)	Documentos personales del representante legal¬.</span></div>
+          <div class="collapsible-body">
+            <p>1)	Personería jurídica;</p>
+            <p>2)	Estatuto Social o documento equivalente;</p>
+            <p>3)	Certificación del acta de Junta Directiva en donde conste la decisión             de afiliarse a la cooperativa;</p>
+            <p>4)	Certificación del punto de acta de la Junta Directiva que acredite la persona que ostenta la representación legal de conformidad a su estatuto;</p>
+            <p>5)	Constancia de inscripción de la junta directiva en la unidad de Registro               y Seguimiento de Sociedades Civiles (URSAC) o su equivalente;</p>
+            <p>6)	Documentos personales del representante legal¬.</span></p>
+          </div>
         </li>
       </ul>
     </div>
@@ -205,7 +215,7 @@
           <div class="col s6 m4 -center -long6" id="beneficios">
             <h3>1.</h3>
             <br>
-            	Seguro de Vida y Gastos fúnebres***
+            Seguro de Vida y Gastos fúnebres***
           </div>
           <div class="col s6 m4 -center -long6" id="beneficios">
             <h3>2.</h3>
@@ -220,12 +230,12 @@
           <div class="col s6 m4 -center -long6" id="beneficios">
             <h3>4.</h3>
             <br>
-            Acceso a buro de Becas;
+            Acceso a buro de Becas disponibles;
           </div>
           <div class="col s6 m4 -center -long6" id="beneficios">
             <h3>5.</h3>
             <br>
-            Acceso buro de Empleo;
+            Acceso buro de Empleos disponibles;
           </div>
           <div class="col s6 m4 -center -long6" id="beneficios">
             <h3>6.</h3>
@@ -264,40 +274,40 @@ export default {
 <style scoped>
 /* entire container, keeps perspective */
 .flip-container {
-	perspective: 1000px;
+  perspective: 1000px;
 }
-	/* flip the pane when hovered */
+/* flip the pane when hovered */
 .flip-container:hover .flipper, .flip-container.hover .flipper {
-		transform: rotateY(180deg);
-	}
+  transform: rotateY(180deg);
+}
 .flip-container, .front, .back {
-	width: 100%;
-	height: 280px;
+  width: 100%;
+  height: 280px;
 }
 /* flip speed goes here */
 .flipper {
-	transition: 0.6s;
-	transform-style: preserve-3d;
+  transition: 0.6s;
+  transform-style: preserve-3d;
 
-	position: relative;
+  position: relative;
 }
 /* hide back of pane during swap */
 .front, .back {
-	backface-visibility: hidden;
-	position: absolute;
-	top: 0;
-	left: 0;
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
   background-image: url('../imgs/Agropecuaria.jpg');
 }
 /* front pane, placed above back */
 .front {
-	z-index: 2;
-	/* for firefox 31 */
-	transform: rotateY(0deg);
+  z-index: 2;
+  /* for firefox 31 */
+  transform: rotateY(0deg);
 }
 /* back, initially hidden pane */
 .back {
-	transform: rotateY(180deg);
+  transform: rotateY(180deg);
 }
 .card-small img{
   height: 100%;
@@ -347,9 +357,9 @@ div.valores{
   color: #FFFFC4;
   font-family: 'Montserrat', sans-serif !important;
   font-weight: 600 !important;
-  font-size: 70px !important;
+  font-size: 3.1vw;
   line-height: 1.2em;
-  padding-top: 5%;
+  padding-top: 10%;
   padding-left: 3%;
   padding-right: 3%;
   line-height: 115%;
@@ -360,14 +370,14 @@ div.valores{
 }
 @-webkit-keyframes filter-animation {
   0% {
-     -webkit-filter: sepia(0) saturate(2);
-   }
-   50% {
-     -webkit-filter: sepia(1) saturate(8);
-   }
-   100% {
-     -webkit-filter: sepia(0) saturate(2);
-   }
+    -webkit-filter: sepia(0) saturate(2);
+  }
+  50% {
+    -webkit-filter: sepia(1) saturate(8);
+  }
+  100% {
+    -webkit-filter: sepia(0) saturate(2);
+  }
 }
 #valores h1{
   font-family: 'Montserrat Subrayada', sans-serif;
@@ -420,6 +430,7 @@ div.valores{
 }
 #requisitos ul{
   color: black;
+  height: auto;
 }
 
 .-transicion1{
@@ -516,6 +527,10 @@ div.valores{
   align-items: center;
   text-align: center;
 }
+#beneficios{
+  height: 200px;
+  font-size: 25px;
+}
 .typewriter h1 {
   font-size: 50px;
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -526,6 +541,12 @@ div.valores{
   animation:
   typing 3.5s steps(40, end),
   blink-caret .75s step-end infinite;
+}
+.collapsible-body{
+  color: #FFFFC4 !important;
+  text-align: left;
+  padding-left: 25%;
+
 }
 
 /* The typing effect */
@@ -550,11 +571,9 @@ div.valores{
     left: calc(50% - 75px);
   }
   #trees{
-    font-size: 2.5vw;
+    font-size: 3.1vw;
     width: 100%;
-    height: 100%;
-    margin: 0px;
-    padding: 0px;
+    height: 300px;
     overflow-x: hidden;
   }
   #leaves{
@@ -564,14 +583,47 @@ div.valores{
     padding: 0px;
     overflow-x: hidden;
   }
+  #contenedor-principal{
+    font-size: 3.0vw;
+  }
+  #contenedorVMision{
+    font-size: 2vw;
+  }
+  #contenedorValor{
+    height: 210px;
+    width: 210px;
+  }
+  #cvalores{
+    font-size: 5px;
+  }
+
   .material-icons{
-    font-size: 24px;
+    font-size: 50px;
   }
   .-frase1{
     font-size: 6vw;
   }
   .typewriter h1{
     font-size: 4vw;
+  }
+  .h1{
+    font-size: 300px;
+  }
+  #virtudes{
+    font-size: 2.5vw;
+    height: 100px;
+  }
+  #MVision{
+    font-size: 4.9vw;
+  }
+  .collapsible-body{
+    padding-left: 180px;
+  }
+  #beneficios{
+    font-size: 2.0vw;
+  }
+  #beneficios h3{
+    font-size: 4.5vw;
   }
 }
 
