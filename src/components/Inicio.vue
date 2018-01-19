@@ -1,5 +1,29 @@
 <template>
   <div class="container-fluid" id="inicio">
+    <div class="navbar-fixed ">
+      <nav class="grey darken-4 " id="elementos">
+        <div class="nav-wrapper ">
+          <a href="#" class="brand-logo right">
+            <img class="" id="clogo"src="./dist/comdahllogo.png" alt="Logo"></img>
+          </a>
+          <a href="#" data-activates="mobile-demo"  class="button-collapse grey darken-4 dropdown-button btn" ><i class="material-icons" id="burger">menu</i></a>
+          <ul id="nav" class="center hide-on-med-and-down">
+            <li><a href="#trees">INICIO</a></li>
+            <li><a href="#contenedor-principal">SOBRE NOSOTROS</a></li>
+            <li><a href="#requisitos">REQUISITOS</a></li>
+            <li><a href="#servicios1">SERVICIOS</a></li>
+            <li><a href="#blacky">BENEFICIOS</a></li>
+          </ul>
+          <ul id="mobile-demo" class="grey darken-4 dropdown-content ">
+            <li><a href="#trees">INICIO</a></li>
+            <li><a href="#contenedor-principal">SOBRE NOSOTROS</a></li>
+            <li><a href="#requisitos">REQUISITOS</a></li>
+            <li><a href="#servicios1">SERVICIOS</a></li>
+            <li><a href="#blacky">BENEFICIOS</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
     <!--  Frase Principal-->
     <div class="fixed-bg center" id="trees">
       Apoyamos a todos aquellos que con
@@ -45,37 +69,34 @@
       </div>
     </div>
     <!--  Mision Vision-->
-    <div class="row">
+    <div class="row" id="MV">
       <div class="col m6 -lightgreen -long2 " id="contenedorVMision">
 
         <div >
-          <h1 id="MVision"><i class="medium material-icons">settings</i> MISIÓN</h1>
+          <h1 id="MVision"><i class="medium material-icons" id="mis">settings</i> MISIÓN</h1>
         </div>
         <p>
-          Somos una empresa cooperativa de primer grado, que promueve
-          y desarrolla servicios de asistencia técnica especializada
-          en procesos productivos, comerciales, administrativos
-          y tecnológicos, que favorecen el desarrollo humano sostenible
-          y el crecimiento patrimonial de las economías familiares,
-          como una contribución eficaz para el desarrollo del sector
-          cooperativo agropecuario Hondureño.
+          Promover y desarrollar bienes y servicios de asistencia técnica especializada en procesos productivos,
+          comerciales, administrativos y tecnológicos, que favorezcan el desarrollo humano sostenible y el crecimiento
+          patrimonial de las economías familiares, como una contribución eficaz para el desarrollo del sector cooperativo
+          agropecuario hondureño.
         </p>
+        <br><br><br><br>
       </div>
       <div class="col m6 -green -long2  " id="contenedorVMision">
 
         <div >
 
-          <h1 id="MVision"><i class="medium material-icons">remove_red_eye</i>VISIÓN</h1>
+          <h1 id="MVision"><i class="medium material-icons" id="vis">remove_red_eye</i>VISIÓN</h1>
         </div>
         <div>
           <p>
-            Ser una organización cooperativa líder en la promoción y
-            desarrollo de servicios agropecuarios financieros, privilegiando
-            la óptima utilización de los recursos naturales, el capital
-            social, la tecnología y el trabajo humano, en el marco de los
-            valores y principios cooperativistas universales, para contribuir
-            a elevar la calidad de vida de las familias productoras y el
-            crecimiento de la economía social en el país.
+                        Ser la organización cooperativa líder en la promoción y desarrollo de bienes y servicios agropecuarios,
+                        privilegiando la óptima utilización de los recursos naturales, el capital
+                        social, la tecnología y el trabajo humano, en el marco de los
+                        valores y principios cooperativistas universales, para contribuir
+                        a elevar la calidad de vida de las familias productoras y el
+                        crecimiento de la economía social en el país.
           </p>
         </div>
       </div>
@@ -83,24 +104,24 @@
     <!--  Valores-->
     <div class="-long4 center -blue">
       <div class="flow-text"id="valores">
-        <h1>VALORES COORPORATIVOS</h1>
+        <h1>VALORES COOPERATIVOS</h1>
         <div class="container row">
-          <div class="col s6 m4 -center -long1 -yellow" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -yellow" id="contenedorValor">
             Igualdad
           </div>
-          <div class="col s6 m4 -center -long1 -lightgreen" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -lightgreen" id="contenedorValor">
             Ayuda Mutua
           </div>
-          <div class="col s6 m4 -center -long1 -green" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -green" id="contenedorValor">
             Respeto
           </div>
-          <div class="col s6 m4 -center -long1 -green" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -green" id="contenedorValor">
             Compromiso
           </div>
-          <div class="col s6 m4 -center -long1 -yellow" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -yellow" id="contenedorValor">
             Confianza
           </div>
-          <div class="col s6 m4 -center -long1 -lightgreen" id="contenedorValor">
+          <div class="col s4 m4 -center -long1 -lightgreen" id="contenedorValor">
             Honestidad
           </div>
         </div>
@@ -117,45 +138,49 @@
     <div class="fixed-bg -center -long3 -frase1 -blue" id="leaves">
     </div>
     <!--  Proyectos-->
-    <div class="-long4 center -white">
+    <div class="-long4 center -blue">
       <div class="flow-text"id="valores">
         <br>
-        <h1>Proyectos</h1>
+        <h1>Nuestros Proyectos</h1>
         <br>
         <div class="container">
           <div class="slider">
             <ul class="slides">
               <li>
-                <img src="../dist/Desarrollo comunal.jpg">
+                <img src="./dist/salud.jpg">
                 <div class="caption center-align">
-                  <h3>Desarrollo comunal localizado en aldea el limón, Cerro de Hula </h3>
+                  <h3>Clínica Médica</h3>
+                  (próximamente)
                 </div>
               </li>
               <li>
-                <img src="../dist/Agropecuaria.jpg">
+                <img src="./dist/DesarrolloComunal.jpg">
+                <div class="caption left-align">
+                  <h3>Desarrollo comunal localizado en aldea el limón, Cerro de Hula </h3>
+                  (próximamente)
+                </div>
+              </li>
+              <li>
+                <img src="./dist/Agropecuaria.jpg">
                 <div class="caption left-align">
                   <h3>Agropecuaria Comercial COMDAHL </h3>
+                  (próximamente)
 
                 </div>
               </li>
               <li>
-                <img src="../dist/Veterinario.jpg">
+                <img src="./dist/Veterinario.jpg">
                 <div class="caption right-align">
                   <h3>Laboratorio Veterinario COMDAHL</h3>
+                  (próximamente)
 
                 </div>
               </li>
               <li>
-                <img src="../dist/Fabrica de biofertilizantes.jpg">
-                <div class="caption center-align">
-                  <h3>Fábrica de biofertilizantes y biopesticidas formulados y elaborados en el país</h3>
-
-                </div>
-              </li>
-              <li>
-                <img src="../dist/areas Protegidas.jpg">
+                <img src="./dist/areasProtegidas.jpg">
                 <div class="caption center-align">
                   <h3>Proyecto Alfa y Omega COMDAHL (Protección de Áreas Protegidas Privadas)</h3>
+                  (próximamente)
 
                 </div>
               </li>
@@ -166,13 +191,12 @@
     </div>
     <!--  Requisitos-->
     <div class=" center -black" id="requisitos">
-      <br><br><br>
-      <h1>Requisitos</h1>
+      <h1>¡SÚMATE!</h1>
       <ul class="collapsible popout" data-collapsible="accordion">
         <li>
-          <div class="-frase3 collapsible-header"><i class="material-icons">filter_drama</i>Podrán ser parte de COMDAHL:</div>
+          <div class="-frase3 collapsible-header">Podrán ser parte de COMDAHL:</div>
           <div class="collapsible-body">
-            <p>1)	los estudiantes y/o egresados mayores de 16 años de las carreras de las Ciencias Agrícolas o Carreras afines como ser: </p>
+            <p>1)	1.	Las personas mayores de 18 años en pleno goce de sus derechos ciudadanos estudiantes o egresados de las carreras de las ciencias agrícolas o carreras afines : </p>
             <p>(Ingeniería forestal, Economía agrícola, administración agropecuaria, licenciatura en turismo, Ingeniería ambiental, etc.), </p>
             <p>con pleno goce de sus derechos ciudadanos.</p>
             <br>
@@ -182,16 +206,16 @@
           </div>
         </li>
         <li>
-          <div class="collapsible-header"><i class="material-icons">place</i>Para poder afiliarse una persona natural deberá presentar:</div>
+          <div class="collapsible-header">Para poder afiliarse una persona natural deberá presentar:</div>
           <div class="collapsible-body">
-            <p>1)	Por escrito solicitud de ingreso dirigida a la junta directiva;</p>
-            <p>2)	Presentar sus documentos personales;</p>
-            <p>3)	Pagar una cuota de ingreso no rembolsable de L.2,000.00 anuales;</p>
+            <p>1)	Llenar formato de afiliación;</p>
+            <p>2)	Presentar fotocopia de identidad y RTN ;</p>
+            <p>3)	Pagar una cuota de ingreso NO rembolsable de L. 2,000.00;</p>
             <p>4)	Presentar declaración de beneficiarios (as).</p>
           </div>
         </li>
         <li>
-          <div class="collapsible-header"><i class="material-icons">whatshot</i> Para poder afiliarse las empresas o instituciones con personería jurídica deberán presentar:</div>
+          <div class="collapsible-header"> Para poder afiliarse las empresas o instituciones con personería jurídica deberán presentar:</div>
           <div class="collapsible-body">
             <p>1)	Personería jurídica;</p>
             <p>2)	Estatuto Social o documento equivalente;</p>
@@ -204,52 +228,234 @@
       </ul>
     </div>
 
+    <div class="row" id="servicios1">
+      <div class="col s12 -lightgreen -long2 " id="contenedorVMision">
 
-
-    <!--  Beneficios-->
-    <div class="fixed-bg -long4 -frase1 center" id="blacky">
-      <div class="flow-text"id="valores">
-        <h1><i class="medium material-icons">star</i>BENEFICIOS</h1>
-        <br>
-        <div class="container row">
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>1.</h3>
-            <br>
-            Seguro de Vida y Gastos fúnebres***
+        <div >
+          <i class="large material-icons" id="person">person</i>
+          <h1 id="STEC"> SERVICIOS DE ASISTENCIA TÉCNICA</h1>
+          <br>
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/ambiente.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Inocuidad de alimentos y medio Ambiente<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Elaboración de auditorías, licencias, planes de contingencia ambiental, diagnósticos rurales rápidos y levantamiento de información en campo</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asistencia técnica especializada en buenas prácticas agrícolas y buenas prácticas de manufactura</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Registro de insumos agrícolas  (Regencia )</span></p>
+            </div>
           </div>
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>2.</h3>
-            <br>
-            Ahorro con tasas de interés competitivas;
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/maiz.JPG">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Producción y comercialización de Granos Básicos y Hortalizas<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Asistencia técnica especializada en producción de granos básicos, hortalizas y mercado</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asesoramiento en conservación y manejo de granos básicos, Capacitación en la elaboración y uso de silos</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Preparación de suelos de forma mecánica y asesoría en equipo agrícola.</span></p>
+            </div>
           </div>
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>3.</h3>
-            <br>
-            Participación Democrática dentro de las asambleas.
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/cow.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Producción y comercialización Pecuaria<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Asesoramiento técnico especializado en porcinocultura, avicultura, apicultura, bovinos y especies menores</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asistencia técnica especializada en sanidad animal</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Asistencia técnica especializada en manejo de pastos y forraje</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">4.</span> <span style="font-size:18px">Asistencia técnica especializada en producción y transformación de leche</span></p>
+            </div>
           </div>
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>4.</h3>
-            <br>
-            Acceso a buro de Becas disponibles;
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/cacao.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><span style="font-size:20px;">Producción y comercialización de Cultivos perennes Agroindustriales</span><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Asistencia técnica especializada en establecimiento de viveros, desarrollo y mantenimiento de fincas en palma africana</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asistencia técnica especializada en café, cacao, caña de azúcar y administración de fincas</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Asistencia técnica especializada en cítricos, aguacate, rambután, mangostín, banano y plátano, piña, ajonjolí, marañón, mango, papaya y otros.</span></p>
+            </div>
           </div>
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>5.</h3>
-            <br>
-            Acceso buro de Empleos disponibles;
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/informatica.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Informática<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Asistencia técnica especializada en elaboración, diseño y mantenimiento de páginas web</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asistencia técnica especializada en Marketing</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Asistencia técnica especializada en Diseño Gráfico</span></p>
+            </div>
           </div>
-          <div class="col s6 m4 -center -long6" id="beneficios">
-            <h3>6.</h3>
-            <br>
-            Capacitaciones formativas en diversas áreas;
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/obra.jpeg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4"><span style="font-size: 22px">Obras civiles y de construcción</span><i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Desarrollo de anteproyectos arquitectónicos, construcción, supervisión y asesoría técnica.</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Asistencia técnica especializada en Gestión de riesgo, desastres y desarrollo municipal</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">3.</span> <span style="font-size:18px">Desarrollo de obras civiles, obras hidrosanitarias, calles y terracerías.</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">4.</span> <span style="font-size:18px">Formulación y supervisión de proyectos, licencia sanitaria, ambiental y proyectos de seguridad</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">5.</span> <span style="font-size:18px">Alquiler de equipo de Construcción</span></p>
+            </div>
           </div>
-          <div class="col s12 m12 -center -long6" id="beneficios">
-            <h3>7.</h3>
-            <br>
-            Prestamos con bajas tasas de interés (Préstamos Automáticos, Préstamos para producción agropecuaria, Préstamos fiduciarios, Préstamos hipotecarios, y, Préstamos Prendarios);
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/logistica.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Servicios de Logística<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Servicios de logística de camiones refrigerados, plataforma, rastras, contenedores secos, tractores agrícolas, montacargas, bomba de agua, moto niveladora, retroexcavadoras  y otros equipos agrícolas.</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m12 l3">
+          <div class="card">
+            <div class="card-image waves-effect waves-block waves-light">
+              <img class="activator" src="./dist/proyectos.jpg">
+            </div>
+            <div class="card-content">
+              <span class="card-title activator grey-text text-darken-4">Proyectos<i class="material-icons right">more_vert</i></span>
+            </div>
+            <div class="card-reveal">
+              <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
+              <p> <span style="font-size:18px; font-weight:bold;">1.</span> <span style="font-size:18px">Análisis, formulación y evaluación de proyectos Agropecuarios</span></p>
+              <p> <span style="font-size:18px; font-weight:bold;">2.</span> <span style="font-size:18px">Monitoreo y seguimiento de proyectos</span></p>
+            </div>
           </div>
         </div>
       </div>
     </div>
+    <div class="row" id="RAC">
+      <div class="col s12 -green -long2  " id="contenedorVMision">
+        <div >
+          <i class="large material-icons" id="money">attach_money</i>
+          <h1 id=""><span style="text-align:center;">SERVICIOS FINANCIEROS</span></h1>
+        </div>
+        <div>
+          <br>
+          <h5 ><span style="text-align:center;">Ofrecemos diversas modalidades de ahorro y crédito con tasas de interés competitivas:</span></h5>
+          <br>
+          <div class="col s6 m6 l6" id="AH">
+            <h5><span style="padding-left:15%;">AHORROS</span></h5>
+            <ul id="ahorros">
+              <li>• Ahorro de aportaciones</li>
+              <li>•	Ahorro Retirables</li>
+              <li>•	Ahorros Navideños</li>
+              <li>•	Ahorro a plazo fijo</li>
+              <li>• Ahorro para niños</li>
+            </ul>
+          </div>
+          <div class="col s6 m6 l6" id="CR">
+            <h5><span style="padding-left:15%;">CRÉDITOS</span></h5>
+            <ul id="credito">
+              <li>•	Crédito Agropecuario</li>
+              <li>•	Crédito Fiduciario</li>
+              <li>•	Crédito Hipotecario</li>
+              <li>•	Crédito Colectivo para proyectos</li>
+              <li>•	Créditos Automáticos</li>
+              <li>•	Líneas de crédito</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--  Beneficios-->
+    <div class="fixed-bg -long4 -frase1 center" id="blacky">
+      <div class="flow-text"id="beneficios1">
+        <h1><i class="medium material-icons">star</i>BENEFICIOS</h1>
+        <div class="container row">
+          <div class="col s8 m4 -center -long6" id="beneficios">
+            <h3>1.</h3>
+            <br>
+            Capacitaciones formativas en diversas áreas.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>2.</h3>
+            <br>
+            Acceso a servicios de asistencia técnica con descuento.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>3.</h3>
+            <br>
+            Cobertura de servicios de <br> nivel nacional
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>4.</h3>
+            <br>
+            Pocas restricciones para el acceso a créditos agropecuarios.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>5.</h3>
+            <br>
+            Ahorro y crédito con tasas de interés competitivas.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>6.</h3>
+            <br>
+            Participación en sorteos promocionales.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>7.</h3>
+            <br>
+            Seguro médico y seguro de vida.
+          </div>
+          <div class="col s2 m4 -center -long6" id="beneficios">
+            <h3>8.</h3>
+            <br>
+            Acceso a Buro de Becas Educativas.
+          </div>
+          <div class="col s6 m4 -center -long6" id="beneficios">
+            <h3>9.</h3>
+            <br>
+            Acceso Buro de Empleos Disponibles.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
 
   </div>
 </template>
@@ -265,13 +471,133 @@ export default {
     $(document).ready(function(){
       $('.slider').slider();
     });
+    $('.dropdown-button').dropdown({
+      inDuration: 300,
+      outDuration: 225,
+      constrainWidth: false, // Does not change width of dropdown to that of the activator
+      hover: true, // Activate on hover
+      gutter: 0, // Spacing from edge
+      belowOrigin: false, // Displays dropdown below the button
+      alignment: 'left', // Displays dropdown with edge aligned to the left of button
+      stopPropagation: false // Stops event propagation
+    }
+  );
+  //smooth scroll
+  $('a[href*="#"]')
+  // Remove links that don't actually link to anything
+  .not('[href="#"]')
+  .not('[href="#0"]')
+  .click(function(event) {
+    // On-page links
+    if (
+      location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '')
+      &&
+      location.hostname == this.hostname
+    ) {
+      // Figure out element to scroll to
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+      // Does a scroll target exist?
+      if (target.length) {
+        // Only prevent default if animation is actually gonna happen
+        event.preventDefault();
+        $('html, body').animate({
+          scrollTop: target.offset().top
+        }, 1000, function() {
+          // Callback after animation
+          // Must change focus!
+          var $target = $(target);
+          $target.focus();
+          if ($target.is(":focus")) { // Checking if the target was focused
+            return false;
+          } else {
+            $target.attr('tabindex','-1'); // Adding tabindex for elements not focusable
+            $target.focus(); // Set focus again
+          };
+        });
+      }
+    }
+  });
 
-  }
+}
 }
 
 </script>
 
 <style scoped>
+#clogo{
+  height: 180px;
+  width: 180px;
+}
+.card{
+  overflow-y: auto;
+}
+.card-reveal{
+  text-align: center;
+}
+#RAC{
+  height: 780px;
+}
+#CR h5{
+  font-weight: bold;
+  text-decoration: underline;
+  padding-right: 425px;
+}
+#AH{
+  padding-left: 23%;
+}
+#CR{
+  padding-right: 15%;
+}
+#credito li{
+  text-align: left;
+  margin-right: 255px;
+  font-weight: bold;
+}
+#AH h5{
+  font-weight: bold;
+  text-decoration: underline;
+  padding-left: 25%;
+}
+#ahorros li{
+  text-align: left;
+  margin-left: 45%;
+  font-weight: bold;
+}
+#person{
+  position: relative;
+  top: 16px;
+}
+#money{
+  position: relative;
+  top: 16px;
+}
+#mis{
+  position: relative;
+  top: 8px;
+  right: 10px;
+}
+#vis{
+  position: relative;
+  top: 8px;
+  right: 10px;
+}
+.card-image {
+  max-height: 100%;
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.card-image img {
+  height: 270px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
 /* entire container, keeps perspective */
 .flip-container {
   perspective: 1000px;
@@ -344,13 +670,12 @@ div.valores{
   position: relative;
   left: 5%;
 }
-
 #virtudes {
   padding-top: 2%;
   font-size: 30px;
 }
 #trees{
-  background-image: url('../imgs/fondo.JPG');
+  background-image: url('../dist/fondo.JPG');
   background-position: bottom;
   height: 600px;
   min-height: 80%;
@@ -384,6 +709,12 @@ div.valores{
   font-size: 70px;
   color: #CCCC52!important;
 }
+#beneficios1 h1{
+  padding-top: 50px;
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 70px;
+  color: #CCCC52!important;
+}
 #valores{
   padding-top: 2%;
 }
@@ -395,7 +726,7 @@ div.valores{
   color: #192B33!important;
 }
 #leaves{
-  background-image: url('../imgs/elotes.JPG');
+  background-image: url('../dist/elotes.JPG');
   -webkit-animation: filter-animation 5s infinite;
   color: #212121 !important;
 }
@@ -420,7 +751,7 @@ div.valores{
   opacity: 0.5;
 }
 #blacky{
-  background-image: url('../imgs/background.jpg');
+  background-image: url('../dist/background.jpg');
 }
 #beneficios{
   font-family: 'Montserrat', sans-serif;
@@ -429,8 +760,14 @@ div.valores{
   color: #CCCC52;
 }
 #requisitos ul{
+  position: relative;
   color: black;
-  height: auto;
+  height: 100%;
+  font-weight: bold;
+  font-size: 20px;
+}
+#requisitos h1{
+  padding-top: 50px;
 }
 
 .-transicion1{
@@ -514,6 +851,9 @@ div.valores{
   -webkit-box-align: center;
   padding-top: 15px;
 }
+.row{
+  overflow: hidden;
+}
 #contenedorVMision {
   font-size: 1.4em;
   color: #192B33;
@@ -522,6 +862,9 @@ div.valores{
   text-align: center;
   justify-items: center !important;
   overflow: hidden;
+  height: 100%;
+  padding-bottom: 100%;
+  margin-bottom: -100%;
 }
 #MVision{
   align-items: center;
@@ -529,7 +872,7 @@ div.valores{
 }
 #beneficios{
   height: 200px;
-  font-size: 25px;
+  font-size: 22px;
 }
 .typewriter h1 {
   font-size: 50px;
@@ -560,8 +903,190 @@ div.valores{
   from, to { border-color: transparent }
   50% { border-color: orange; }
 }
+.-white{
+  background-color: #FFFFC4;
+  color: black;
+}
+.-green{
+  background-color: #8FB259;
+  color: #FFFFC4;
+}
+.-lightgreen{
+  background-color: #CCCC52;
+  color: #FFFFC4;
+}
+.-blue{
+  background-color: #192B33;
+  color: #FFFFC4;
+}
+.-yellow{
+  background-color: #FFD933;
+  color: #FFFFC4;
+}
+.-black{
+  background-color: #212121;
+  color: #FFFFC4;
+}
+.dropdown-button{
+  -moz-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+}
+#footText{
+  font-size: 20px;
+}
+#foots{
+  -webkit-transition: background-color 2s ease-out;
+  -moz-transition: background-color 2s ease-out;
+  -o-transition: background-color 2s ease-out;
+  transition: background-color 2s ease-out;
+}
+#foots img:hover{
+  background: #black;
+  filter: alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity: .5;
+  transition: opacity .3s ease-out;
+  -moz-transition: opacity .3s ease-out;
+  -webkit-transition: opacity .3s ease-out;
+  -o-transition: opacity .3s ease-out;
+}
+.navbar-fixed{
+
+}
+#app{
+  background-color: #262626;
+  color: #F4F0EA;
+}
+#elementos{
+  font-family: 'Roboto', sans-serif;
+
+}
+a {
+  color: #F4F0EA;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+
+}
+
+#elementos{
+  color: #06152F;
+  background: #F4F0EA;
+  padding: 0px 50px;
+  -webkit-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  -moz-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+}
+#nav-mobile{
+  color: #FFFFC4 !important;
+}
+#busqueda{
+  box-shadow: inset 0 -10px 20px -5px rgba(0,0,0,0.67);
+  box-shadow: inset 0 10px 20px -5px rgba(0,0,0,0.67);
+  color: #F4F0EA;
+}
+#search:focus {
+  -webkit-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  -moz-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  background-color: #FF0B00;
+  color: #F4F0EA;
+}
+.page-footer{
+  color: #06152F;
+  background: black;
+}
+a :hover{
+  opacity: .6;
+  transition: opacity .2s ease-out;
+  -moz-transition: opacity .2s ease-out;
+  -webkit-transition: opacity .2s ease-out;
+  -o-transition: opacity .2s ease-out;
+}
+
+.footer-copyright{
+  color: #06152F;
+  background: #262626;
+  font-size: 11px !important;
+  -webkit-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  -moz-box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  box-shadow: inset 0px 0px 45px 3px rgba(0,0,0,0.67);
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px !important;
+}
+#nav ul { text-align: center; }
 
 @media(max-width: 768px){
+
+  #beneficios1 h1{
+    font-size: 55px;
+  }
+  #beneficios{
+    font-size: 18px;
+  }
+  h1{
+      font-size: 35px;
+  }
+  #STEC{
+    font-size: 35px;
+  }
+  #clogo{
+    width: 120px;
+    height: auto;
+  }
+  #frase3{
+    font-size: 20px;
+  }
+  #AH{
+    padding-left: 30px;
+  }
+  #CR{
+    padding-left: 80px;
+    margin: 0;
+  }
+  #credito li{
+    text-align: left;
+    font-weight: bold;
+    width: 280px;
+    overflow: hidden;
+  }
+  #ahorros li{
+    text-align: left;
+    margin-left: 15%;
+    font-weight: bold;
+  }
+  #CR h5{
+    padding-left: 15px;
+  }
+  #AH h5{
+    padding-right: 55px;
+  }
+  #ahorros li{
+    text-align: left;
+    margin-left: 25%;
+    font-weight: bold;
+  }
+  .container.row{
+    padding-top: 50px;
+    padding-left: 50px;
+    width: 100%;
+    height: auto;
+  }
+  .-long4.center.-blue{
+    height: 650px;
+  }
+  #valores h1{
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 50px;
+    color: #CCCC52!important;
+  }
+  #contenedorValor{
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    font-family: 'Montez', cursive;
+    font-size: 40px;
+    color: #192B33!important;
+  }
   #inicio{
     width: 100%;
     height: 100%;
@@ -618,9 +1143,6 @@ div.valores{
   }
   .collapsible-body{
     padding-left: 180px;
-  }
-  #beneficios{
-    font-size: 2.0vw;
   }
   #beneficios h3{
     font-size: 4.5vw;

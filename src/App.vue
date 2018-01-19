@@ -1,33 +1,6 @@
 <template>
   <div id="app">
-    <div class="navbar-fixed ">
-      <nav class="grey darken-4 " id="elementos">
-        <div class="nav-wrapper ">
-          <a href="#" class="brand-logo right">
-            <img class="materialboxed" src="../dist/comdahllogo.png" width="180" height="180" alt="Logo"></img>
-          </a>
-          <a href="#" data-activates="mobile-demo" class="button-collapse dropdown-button btn"><i class="material-icons">menu</i></a>
-          <ul id="nav" class="center hide-on-med-and-down">
-            <router-link to="/"><li><a>INICIO</a></li></router-link>
-            <router-link to="/"><li><a>SOBRE NOSOTROS</a></li></router-link>
-            <router-link to="/"><li><a>REQUISITOS</a></li></router-link>
-            <router-link to="/"><li><a>BENEFICIOS</a></li></router-link>
-            <router-link to="Login"><li><a>LOGIN</a></li></router-link>
-            <li>
-            </li>
-          </ul>
-          <ul id="mobile-demo" class="dropdown-content">
-            <router-link to="/"><li><a>INICIO</a></li></router-link>
-            <router-link to="/"><li><a>SOBRE NOSOTROS</a></li></router-link>
-            <router-link to="/"><li><a>REQUISITOS</a></li></router-link>
-            <router-link to="/"><li><a>BENEFICIOS</a></li></router-link>
-            <router-link to="Login"><li><a>LOGIN</a></li></router-link>
-            <li>
-            </li>
-          </ul>
-        </div>
-      </nav>
-    </div>
+
 
     <router-view></router-view>
     <div class="tap-target" data-activates="menu">
@@ -40,12 +13,17 @@
         <div class="row">
           <div class="col s8">
             <p class="grey-text text-lighten-4" id="footText">
-              <i class="Small material-icons left">call</i> Teléfonos <br> 2235 - 9384  / 2262 - 8660
+              <i class="Small material-icons left">call</i> Teléfonos (+504)<br>  2235 - 9384  /  2262 - 8660 <br> 9430-723 / 9892-5851
             </p>
           </div>
-          <div class="col s4 center">
+          <div class="col s4 ">
             <p class="grey-text text-lighten-4" id="footText">
-              <i class="Small material-icons left">email</i>Correo  <br> administrador@comdahl.hn
+              <i class="small material-icons left">email</i>Correos<br> Comdahl.hn@gmail.com / administracion@comdahl.hn
+            </p>
+          </div>
+          <div class="col s4 ">
+            <p class="grey-text text-lighten-4" id="footText">
+              <i class="small material-icons left">face</i>Horarios de Atencion<br> Lunes: 9:00 A.M - 5:00 P.M. <br> Sábado 9:00 A.M - 12:00 P.M.
             </p>
           </div>
         </div>
@@ -54,8 +32,8 @@
         <div class="row">
           <div class="col l6 s12">
             <h5 class="white-text">Ubicación</h5>
-            <p class="grey-text text-lighten-4" id="footText"><br>
-              Col. Alameda 2da Ave. Sendero Subirana / Tegucigalpa Casa #547.</p>
+            <p class="grey-text text-lighten-4" id="footText">
+              Colonia Alameda 2da Ave. Sendero Subirana/ Tegucigalpa M.D.C., a tres casas del CINAH, frente al kínder Belén Star, casa #547.</p>
             </div>
             <div class="col l4 offset-l2 s12">
               <h5 class="white-text">Conéctate con nosotros</h5>
@@ -201,9 +179,4 @@
     font-size: 15px !important;
   }
   #nav ul { text-align: center; }
-  .materialboxed{
-    width: 11%;
-    height: auto;
-    left: 88%;
-  }
   </style>
