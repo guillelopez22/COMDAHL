@@ -236,13 +236,13 @@
           <h1 id="STEC"> SERVICIOS DE ASISTENCIA TÉCNICA</h1>
           <br>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/ambiente.JPG">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Inocuidad de alimentos y medio Ambiente<i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator grey-text text-darken-4"><span style="font-size:1em;">Inocuidad de alimentos y medio Ambiente</span><i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -252,7 +252,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/maiz.JPG">
@@ -268,7 +268,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/cow.jpg">
@@ -285,13 +285,13 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/cacao.jpg">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4"><span style="font-size:20px;">Producción y comercialización de Cultivos perennes Agroindustriales</span><i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator grey-text text-darken-4"><span style="font-size:.8em;">Producción y comercialización de Cultivos perennes Agroindustriales</span><i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -301,7 +301,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/informatica.jpg">
@@ -317,13 +317,13 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/obra.jpeg">
             </div>
             <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4"><span style="font-size: 22px">Obras civiles y de construcción</span><i class="material-icons right">more_vert</i></span>
+              <span class="card-title activator grey-text text-darken-4"><span style="font-size: .8em">Obras civiles y de construcción</span><i class="material-icons right">more_vert</i></span>
             </div>
             <div class="card-reveal">
               <span class="card-title grey-text text-darken-4"><i class="material-icons right">close</i></span>
@@ -335,7 +335,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/logistica.jpg">
@@ -349,7 +349,7 @@
             </div>
           </div>
         </div>
-        <div class="col s12 m12 l3">
+        <div class="col s12 m12 l6 xl3">
           <div class="card">
             <div class="card-image waves-effect waves-block waves-light">
               <img class="activator" src="./dist/proyectos.jpg">
@@ -376,7 +376,7 @@
           <br>
           <h5 ><span style="text-align:center;">Ofrecemos diversas modalidades de ahorro y crédito con tasas de interés competitivas:</span></h5>
           <br>
-          <div class="col s6 m6 l6" id="AH">
+          <div class="col s6 m6 l6 xl6" id="AH">
             <h5><span style="padding-left:15%;">AHORROS</span></h5>
             <ul id="ahorros">
               <li>• Ahorro de aportaciones</li>
@@ -386,7 +386,7 @@
               <li>• Ahorro para niños</li>
             </ul>
           </div>
-          <div class="col s6 m6 l6" id="CR">
+          <div class="col s6 m6 l6 xl6" id="CR">
             <h5><span style="padding-left:15%;">CRÉDITOS</span></h5>
             <ul id="credito">
               <li>•	Crédito Agropecuario</li>
@@ -406,7 +406,7 @@
       <div class="flow-text"id="beneficios1">
         <h1><i class="medium material-icons">star</i>BENEFICIOS</h1>
         <div class="container row">
-          <div class="col s8 m4 -center -long6" id="beneficios">
+          <div class="col s4 m4 -center -long6" id="beneficios">
             <h3>1.</h3>
             <br>
             Capacitaciones formativas en diversas áreas.
@@ -751,6 +751,7 @@ div.valores{
   opacity: 0.5;
 }
 #blacky{
+  height: auto;
   background-image: url('../dist/background.jpg');
 }
 #beneficios{
@@ -872,7 +873,12 @@ div.valores{
 }
 #beneficios{
   height: 200px;
-  font-size: 22px;
+  font-size: 30px;
+  padding-left: 70px;
+  padding-right: 50px;
+}
+#beneficios1 h3{
+  font-size: 45px;
 }
 .typewriter h1 {
   font-size: 50px;
@@ -1015,14 +1021,96 @@ a :hover{
   font-size: 15px !important;
 }
 #nav ul { text-align: center; }
-
+@media(max-width: 1080px){
+  #frase3{
+    font-size: 25px;
+  }
+  #beneficios{
+    font-size: 16px;
+    width: 240px;
+    padding-left: 45px;
+    padding-right: 32px;
+  }
+  #beneficios1 h1{
+    font-size: 60px;
+  }
+  #beneficios h3{
+    font-size: 36px;
+  }
+  #trees{
+    height: 400px;
+  }
+  .typewriter h1{
+    font-size: 4vw;
+  }
+  #AH{
+    padding-left: 30px;
+  }
+  #CR{
+    padding-left: 80px;
+    margin: 0;
+  }
+  #CR h5{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 35px;
+  }
+  #AH h5{
+    font-weight: bold;
+    text-decoration: underline;
+    padding-left: 70px;
+  }
+  #ahorros li{
+    width: auto;
+    margin-left: 160px;
+    text-align: left;
+    font-weight: bold;
+  }
+  #credito li{
+    text-align: left;
+    font-weight: bold;
+    width: 310px;
+    overflow: hidden;
+  }
+  #clogo{
+    width: 120px;
+    height: auto;
+  }
+  .card-image {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .card-title{
+    font-size: 8px;
+    overflow-x: hidden;
+    height: 80px;
+    margin: auto;
+  }
+  .card-image img {
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+}
 @media(max-width: 768px){
-
+  #blacky{
+    padding-bottom: 80px;
+    padding-left: 50px;
+    width: auto;
+    height: auto;
+    background-size: auto;
+  }
   #beneficios1 h1{
     font-size: 55px;
   }
   #beneficios{
-    font-size: 18px;
+    font-size: 16px;
   }
   h1{
       font-size: 35px;
@@ -1049,11 +1137,6 @@ a :hover{
     font-weight: bold;
     width: 280px;
     overflow: hidden;
-  }
-  #ahorros li{
-    text-align: left;
-    margin-left: 15%;
-    font-weight: bold;
   }
   #CR h5{
     padding-left: 15px;

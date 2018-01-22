@@ -9,33 +9,14 @@
       </div>
     </div>
     <footer class="page-footer">
-      <div class="container">
+      <div class="container" id="foot">
         <div class="row">
-          <div class="col s8">
-            <p class="grey-text text-lighten-4" id="footText">
-              <i class="Small material-icons left">call</i> Teléfonos (+504)<br>  2235 - 9384  /  2262 - 8660 <br> 9430-723 / 9892-5851
-            </p>
-          </div>
-          <div class="col s4 ">
-            <p class="grey-text text-lighten-4" id="footText">
-              <i class="small material-icons left">email</i>Correos<br> Comdahl.hn@gmail.com / administracion@comdahl.hn
-            </p>
-          </div>
-          <div class="col s4 ">
-            <p class="grey-text text-lighten-4" id="footText">
-              <i class="small material-icons left">face</i>Horarios de Atencion<br> Lunes: 9:00 A.M - 5:00 P.M. <br> Sábado 9:00 A.M - 12:00 P.M.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col l6 s12">
+          <div class="col l6 s6">
             <h5 class="white-text">Ubicación</h5>
             <p class="grey-text text-lighten-4" id="footText">
               Colonia Alameda 2da Ave. Sendero Subirana/ Tegucigalpa M.D.C., a tres casas del CINAH, frente al kínder Belén Star, casa #547.</p>
             </div>
-            <div class="col l4 offset-l2 s12">
+            <div class="col l4 offset-l2 s6">
               <h5 class="white-text">Conéctate con nosotros</h5>
               <ul>
                 <li>
@@ -46,6 +27,25 @@
                   </div>
                 </li>
               </ul>
+            </div>
+          </div>
+        </div>
+        <div class="container" id="foot">
+          <div class="row">
+            <div class="col s8">
+              <p class="grey-text text-lighten-4" id="footText">
+                <i class="Small material-icons left">call</i> Teléfonos (+504)<br>  2235 - 9384  /  2262 - 8660 <br> 9430-723 / 9892-5851
+              </p>
+            </div>
+            <div class="col s4 ">
+              <p class="grey-text text-lighten-4" id="footText">
+                <i class="small material-icons left">email</i>Correos<br> Comdahl.hn@gmail.com / administracion@comdahl.hn
+              </p>
+            </div>
+            <div class="col s12">
+              <p class="grey-text text-lighten-4" id="footText">
+                <i class="small material-icons left">face</i>Horarios de Atencion<br> Lunes: 9:00 A.M - 5:00 P.M. <br> Sábado 9:00 A.M - 12:00 P.M.
+              </p>
             </div>
           </div>
         </div>
@@ -71,6 +71,7 @@
   </script>
 
   <style scoped>
+
   .-white{
     background-color: #FFFFC4;
     color: black;
@@ -179,4 +180,5 @@
     font-size: 15px !important;
   }
   #nav ul { text-align: center; }
+
   </style>
